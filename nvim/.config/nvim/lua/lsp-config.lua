@@ -24,14 +24,6 @@ capabilities.textDocument.completion.completionItem.resolveSupport = {
 -- google's lsp for golang
 require'lspconfig'.gopls.setup{}
 
--- Enable some language servers with the additional completion capabilities offered by nvim-cmp
-local servers = { 'clangd', 'rust_analyzer', 'pyright', 'tsserver', 'gopls' }
-for _, lsp in ipairs(servers) do
-  nvim_lsp[lsp].setup {
-    -- on_attach = my_custom_on_attach,
-    capabilities = capabilities,
-  }
-end
 -- importing missing modules
 function goimports(timeoutms)
   local context = { source = { organizeImports = true } }
@@ -62,8 +54,18 @@ function goimports(timeoutms)
     vim.lsp.buf.execute_command(action)
   end
 end
+
 -- formatting go files on save
 vim.cmd[[autocmd BufWritePre *.go lua goimports(1000)]]
+
+-- Enable some language servers with the additional completion capabilities offered by nvim-cmp
+local servers = { 'clangd', 'rust_analyzer', 'pyright', 'tsserver', 'gopls' }
+for _, lsp in ipairs(servers) do
+  nvim_lsp[lsp].setup {
+    -- on_attach = my_custom_on_attach,
+    capabilities = capabilities,
+  }
+end
 
 -- nvim-cmp setup
 local cmp = require 'cmp'

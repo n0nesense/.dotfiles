@@ -1,0 +1,21 @@
+vim.cmd[[set undofile]]
+vim.cmd[[set undodir=~/.vim/undodir]]
+vim.o.inccommand = 'nosplit'
+vim.o.hlsearch = false
+vim.o.incsearch = true
+vim.o.number = true
+vim.o.hidden = true
+vim.o.mouse = 'a'
+vim.o.breakindent = true
+vim.o.ignorecase = true
+vim.o.smartcase = true
+vim.o.updatetime = 50
+vim.o.signcolumn = "yes"
+vim.o.scrolloff = 10
+vim.o.clipboard = 'unnamedplus'
+vim.o.expandtab = true
+vim.o.termguicolors = true
+vim.o.swapfile = false
+vim.o.tabstop = 2
+vim.o.softtabstop = 2
+vim.o.shiftwidth = 2

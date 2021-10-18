@@ -54,8 +54,7 @@ function goimports(timeoutms)
     vim.lsp.buf.execute_command(action)
   end
 end
-
--- formatting go files on save
+-- calling goimports() function on save
 vim.cmd[[autocmd BufWritePre *.go lua goimports(1000)]]
 
 -- Enable some language servers with the additional completion capabilities offered by nvim-cmp

@@ -1,0 +1,2 @@
+#ignoring packer and other changes
+nvim/.config/nvim/plugin/

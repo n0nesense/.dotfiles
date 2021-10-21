@@ -1,5 +1,7 @@
 vim.cmd[[set undofile]]
 vim.cmd[[set undodir=~/.vim/undodir]]
+vim.cmd[[autocmd BufWrite,BufRead *.nasm set ft=nasm]]
+
 vim.o.inccommand = 'nosplit'
 vim.o.hlsearch = false
 vim.o.incsearch = true

@@ -16,8 +16,8 @@ vim.api.nvim_set_keymap('n', '<A-d>', '<cmd>Lspsaga open_floaterm<cr>', { norema
 vim.api.nvim_set_keymap('t', '<A-d>', '<cmd>Lspsaga close_floaterm<cr>', { noremap = true, silent = true })
 
 --- Tabs
-vim.api.nvim_set_keymap('n', '<A-tab>n', '<cmd>tabe<cr>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<A-tab>c', '<cmd>tabc<cr>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<A-tab>o', '<cmd>tabo<cr>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<A-tab>l', '<cmd>tabn<cr>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<A-tab>h', '<cmd>tabp<cr>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<tab>n', '<cmd>tabe<cr>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<tab>c', '<cmd>tabc<cr>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<tab>o', '<cmd>tabo<cr>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<tab>l', '<cmd>tabn<cr>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<tab>h', '<cmd>tabp<cr>', { noremap = true, silent = true })

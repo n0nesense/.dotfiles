@@ -42,29 +42,29 @@ require'nvim-treesitter.configs'.setup {
 -- lualine
 local custome_lualine = {
   normal = {
-    a = {bg = colors.base09, fg = colors.base00, gui = 'bold'},
-    b = {bg = colors.base01, fg = colors.base05},
-    c = {bg = colors.base01, fg = colors.base05}
+    a = { bg = colors.base09, fg = colors.base00, gui = 'bold' },
+    b = { bg = colors.base01, fg = colors.base05 },
+    c = { bg = colors.base01, fg = colors.base05 }
   },
   insert = {
     a = { bg = colors.base0A , fg = colors.base00, gui = 'bold' },
-    b = {bg = colors.base01, fg = colors.base05},
-    c = {bg = colors.base01, fg = colors.base05}
+    b = { bg = colors.base01, fg = colors.base05 },
+    c = { bg = colors.base01, fg = colors.base05 }
   },
   visual = {
     a = { bg = colors.base0F, fg = colors.base00, gui = 'bold' },
-    b = {bg = colors.base01, fg = colors.base05},
-    c = {bg = colors.base01, fg = colors.base05}
+    b = { bg = colors.base01, fg = colors.base05},
+    c = { bg = colors.base01, fg = colors.base05}
   },
   replace = {
     a = { bg = colors.base0E, fg = colors.base00, gui = 'bold' },
-    b = {bg = colors.base01, fg = colors.base05},
-    c = {bg = colors.base01, fg = colors.base05}
+    b = { bg = colors.base01, fg = colors.base05 },
+    c = { bg = colors.base01, fg = colors.base05 }
   },
   command = {
     a = { bg = colors.base0B, fg = colors.base00, gui = 'bold' },
-    b = {bg = colors.base01, fg = colors.base05},
-    c = {bg = colors.base01, fg = colors.base05}
+    b = { bg = colors.base01, fg = colors.base05 },
+    c = { bg = colors.base01, fg = colors.base05 }
   },
   inactive = {
     a = { bg = colors.base01, fg = colors.base03, gui = 'bold' },

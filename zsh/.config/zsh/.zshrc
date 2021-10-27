@@ -19,4 +19,4 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 # zsh prompt
-PS1="%F{cyan}%n%f in %F{green}%2~%f %F{red}%f "
+PS1="%F{cyan}%B%4~%b%f %F{red}%B>%b%f "

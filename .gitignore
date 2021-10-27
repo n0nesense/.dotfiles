@@ -1,2 +1,3 @@
 #ignoring packer and other changes
 nvim/.config/nvim/plugin/
+zsh/.config/zsh/.histfile

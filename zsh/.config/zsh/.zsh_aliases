@@ -1,0 +1,5 @@
+alias -g ll="exa -l"
+alias -g ls="exa --color=always"
+alias -g v=nvim
+
+alias reload_zsh="source $ZDOTDIR/.zshrc"

@@ -34,7 +34,7 @@ zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' check-for-staged-changes true
 zstyle ':vcs_info:*' stagedstr "%F{green}+%f"
 zstyle ':vcs_info:*' unstagedstr "%F{red}!%f"
-zstyle ':vcs_info:*' formats "%F{cyan}%B%r:%F{purple}%b%f %c%u"
+zstyle ':vcs_info:*' formats "%F{cyan}%B%r%f:%F{magenta}%b%f %c%u"
 zstyle ':vcs_info:*' enable git
 RPROMPT=\$vcs_info_msg_0_
 RPROMPT+="%(?..%F{red}%B %?)%b %F{yellow}%B%T%b%f"

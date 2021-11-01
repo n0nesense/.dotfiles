@@ -1,4 +1,4 @@
-alias -g ll="exa -l"
+alias -g ll="exa -lrha --time=created --color=always"
 alias -g ls="exa --color=always"
 alias -g v=nvim
 

@@ -3,7 +3,7 @@ if [[ -z "$XDG_CONFIG_HOME" ]] then
 fi
 
 if [[ -d "$XDG_CONFIG_HOME/zsh" ]] then
-        export ZDOTDIR="$XDG_CONFIG_HOME/zsh/"
+        export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 fi
 
 export MOZ_ENABLE_WAYLAND=1

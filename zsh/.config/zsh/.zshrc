@@ -37,4 +37,5 @@ zstyle ':vcs_info:*' unstagedstr "%F{red}!%f"
 zstyle ':vcs_info:*' formats "%F{cyan}%B%r%f:%F{magenta}%b%f %c%u"
 zstyle ':vcs_info:*' enable git
 RPROMPT=\$vcs_info_msg_0_
-RPROMPT+="%(?..%F{red}%B %?)%b %F{yellow}%B%T%b%f"
+RPROMPT+="%F{blue}%B%(1j.%j. )%b%f%(?..%F{red}%B %?)%b %F{yellow}%B%T%b%f"
+

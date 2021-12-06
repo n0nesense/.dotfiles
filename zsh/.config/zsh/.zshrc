@@ -33,7 +33,7 @@ PROMPT="%F{blue}%B%4~%b%f %(?.%F{green}%B>.%F{red}%B>)%f%b "
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' check-for-staged-changes true
 zstyle ':vcs_info:*' stagedstr "%F{green}+%f"
-zstyle ':vcs_info:*' unstagedstr "%F{red}!%f"
+zstyle ':vcs_info:*' unstagedstr "%F{red}!%f "
 zstyle ':vcs_info:*' formats "%F{cyan}%B%r%f:%F{magenta}%b%f %c%u"
 zstyle ':vcs_info:*' enable git
 RPROMPT=\$vcs_info_msg_0_

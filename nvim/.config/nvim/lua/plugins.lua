@@ -6,6 +6,8 @@ return require('packer').startup(function()
   
   use 'RRethy/nvim-base16'
   use 'p00f/nvim-ts-rainbow'
+  -- neovim isn't supported yet
+  -- use 'jeaye/color_coded'
 
   use 'neovim/nvim-lspconfig'
   use 'glepnir/lspsaga.nvim'

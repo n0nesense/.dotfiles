@@ -86,4 +86,6 @@ require('colorizer').setup {
   'html';
   'css';
   'javascript';
+  'go';
+  'rust';
 }

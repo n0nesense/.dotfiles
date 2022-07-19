@@ -4,10 +4,9 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   
-  use 'RRethy/nvim-base16'
+  use 'folke/tokyonight.nvim'
   use 'p00f/nvim-ts-rainbow'
-  -- neovim isn't supported yet
-  -- use 'jeaye/color_coded'
+  use 'jeaye/color_coded'
 
   use 'neovim/nvim-lspconfig'
   use 'glepnir/lspsaga.nvim'
